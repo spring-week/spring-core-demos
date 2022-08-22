@@ -67,6 +67,7 @@ public class FootballCoach implements Coach {
 	 *            
 	 *            @Inject (JEE annotation, which is functionally similar to Spring's @Autowired)
 	 */
+    @Autowired
     public void setMotivationService(MotivationService motivationService) {
         System.out.println("FootballCoach.setMotivationService() invoked!");
         this.motivationService = motivationService;

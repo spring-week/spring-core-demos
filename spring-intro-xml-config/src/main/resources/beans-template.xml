@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd">
+
+  <bean id="..." class="...">
+    <!-- collaborators and configuration for this bean go here -->
+  </bean>
+
+  <bean id="..." class="...">
+    <!-- collaborators and configuration for this bean go here -->
+  </bean>
+
+  <!-- more bean definitions go here -->
+
+<!-- https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html#:~:text=The%20following%20example%20shows%20the%20basic%20structure%20of%20XML%2Dbased%20configuration%20metadata%3A -->
+</beans>
